@@ -1,0 +1,14 @@
+com\example\whether\service\CityService.class
+com\example\whether\ServletInitializer.class
+com\example\whether\entity\City$Sys.class
+com\example\whether\controller\CityController.class
+com\example\whether\entity\Model.class
+com\example\whether\WhetherApplication.class
+com\example\whether\entity\City$WeatherInst.class
+com\example\whether\entity\City$Wind.class
+com\example\whether\entity\City$Coord.class
+com\example\whether\entity\City.class
+com\example\whether\exceptions\IncorrectCityNameException.class
+com\example\whether\entity\City$Main.class
+com\example\whether\entity\City$Clouds.class
+com\example\whether\repository\CityRepo.class
