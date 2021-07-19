@@ -33,7 +33,6 @@ public class WeatherService {
 
     private void saveWeatherByCity(String city) {
         if (weatherRepo.findByName(city) != null){
-            System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11");
             weatherRepo.delete(weatherRepo.findByName(city));
         }
         String urlString = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey;
