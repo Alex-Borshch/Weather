@@ -15,7 +15,6 @@ public class WeatherRestController {
 
     @GetMapping
     public Weather getWeather (@RequestParam(value="city",defaultValue = "Kyiv") String city){
-        System.out.println("GET GET GET GET GET GET GET GET GET");
         return service.getWeatherByCity(city);
     }
 }
